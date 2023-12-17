@@ -3,19 +3,19 @@
 
 
 
-C  175,0,180
-NO ./textures/elon.xpm
+C  120,120,240
+NO ./textures/brick.xpm
 
 
- SO ./textures/plant.xpm
+ SO ./textures/grey.xpm
 
 
-     EA ./textures/woman.xpm
+     EA ./textures/brick.xpm
 
 
-F  255,0,140
+F  127,127,127
 
-   WE                ./textures/piao.xpm
+   WE                ./textures/grey.xpm
 
 
 

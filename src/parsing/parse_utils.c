@@ -35,7 +35,7 @@ void	print_parsing_error(int err)
 	if (err == 1)
 		ft_putstr_fd("Can't open file.\n", 2);
 	if (err == 2)
-		ft_putstr_fd("File is not a .cub file.\n", 2);
+		ft_putstr_fd("File is not a .cub file. (usage: ./cub3D <map>.cub)\n", 2);
 	if (err == 3)
 		ft_putstr_fd("Invalid data line.\n", 2);
 	if (err == 4)
